@@ -18,7 +18,6 @@ def leet_speak(sentence)
           counter += 1
         else
           leet_word.push("z")
-          # binding.pry
         end
       else
         leet_word.push(letter)
